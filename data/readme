@@ -1,2 +1,3 @@
-1599 gamma-ray bursts (GRBs) from the Burst and Transient Source Experiment (BATSE) 4Br Catalog.
-Each observed burst was recorded with nine features (in log10 scale): T50, T90, F1, F2, F3, F4, P64, P256, P1024.
+The folder contains:
+1. The 1599 gamma-ray bursts (GRBs) from the Burst and Transient Source Experiment (BATSE) 4Br Catalog, where each observed burst was recorded with nine features (in log10 scale): T50, T90, F1, F2, F3, F4, P64, P256, P1024.
+2. The simulated shape data used for illustrating MOBSynC in the paper.
