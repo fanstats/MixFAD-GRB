@@ -35,6 +35,8 @@ K = 5
 overlapGOM(Pi = ppi, Mu = t(mmu), S = s)
 
 # map of pairwise overlaps 
+colpal.5 = c(brewer.pal(8,"Dark2")[3:5], brewer.pal(8,"Set2")[1:2])
+
 overlap_mat <- overlap(ppi, t(mmu), s)$OmegaMap
 overlap.map((2*overlap_mat - diag(K)), lab.col = colpal.5, 
             map.cex = 2.75, lab.cex = 4,
