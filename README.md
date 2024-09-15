@@ -1,5 +1,6 @@
-Cluster Analysis and Variability Characterization of BATSE Catalog Gamma
-Ray Bursts with Gaussian Mixture of Factor Analyzers
+Latent characterisation of the BATSE Gamma Ray Bursts catalogue using
+Gaussian Mixture of Factor Analysers and Model-estimated Overlap-Based
+Syncytial Clustering
 ================
 
 This project applies the Gaussian mixture of factor analyzers to cluster
@@ -13,6 +14,6 @@ the GRB clusters in terms of three composite features, duration
 ($F_3/(F_1 +F_2$)).
 
 <p float="left">
-<img src="figures/grb-5g.png" width="400" />
+<img src="figures/grb-org-log.png" width="400" />
 <img src="figures/grb-5g-class-feature-dist.png" width="400" />
 </p>
