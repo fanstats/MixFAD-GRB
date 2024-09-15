@@ -14,6 +14,6 @@ the GRB clusters in terms of three composite features, duration
 ($F_3/(F_1 +F_2$)).
 
 <p float="left">
-<img src="figures/grb-org-log.png" width="400" height = "420" />
+<img src="figures/grb-org-log.png" width="400" height = "405" />
 <img src="figures/grb-5g-class-feature-dist.png" width="400" />
 </p>
