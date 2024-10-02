@@ -1,3 +1,4 @@
 The folder contains:
-1. The 1599 gamma-ray bursts (GRBs) from the Burst and Transient Source Experiment (BATSE) 4Br Catalog, where each observed burst was recorded with nine features (in log10 scale): T50, T90, F1, F2, F3, F4, P64, P256, P1024.
+1. allgrbs.csv: 2702 gamma-ray bursts (GRBs) from the complete BATSE GRB catalogue, publicly available from https://heasarc.gsfc.nasa.gov, contains the GRBs detected by the BATSE instrument on the Compton Gamma-Ray Observatory (CGRO).
+1. grbs-complete.rda: 1598 GRBs from the 2702 records with nine fully observed parameters (T50, T90, F1, F2, F3, F4, P64, P256, P1024).
 2. The simulated shape data used for illustrating MOBSynC in the paper.
