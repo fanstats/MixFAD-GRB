@@ -1,5 +1,5 @@
 The folder contains:
 1. allgrbs.csv: 2702 gamma-ray bursts (GRBs) from the complete BATSE GRB catalogue, publicly available from https://heasarc.gsfc.nasa.gov, contains the GRBs detected by the BATSE instrument on the Compton Gamma-Ray Observatory (CGRO).
 2. grbs-complete.rda: 1598 GRBs (on the original scale) from the 2702 records with nine fully observed parameters (T50, T90, F1, F2, F3, F4, P64, P256, P1024).
-3. grbs-thinned.rda: 1150 GRBs (on the original scale) from the 1598 records with observations greater than 2σ for T50, T90, and greater than 1σ for F1, F2, F3, F4, P64, P256, P1024. 
+3. grbs-thinned.rda: 1150 GRBs (on the original scale) from the 1598 records with observations greater than 2σ for T50, T90, and greater than 1σ for F1, F2, F3, F4, P64, P256, P1024 (σ denotes the measurement error). 
 4. mobsync-shapedata.rda: simluated dataset that is used to illustrate the MOBSynC procedure in section 2.2.3.
