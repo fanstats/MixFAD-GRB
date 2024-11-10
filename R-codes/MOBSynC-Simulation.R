@@ -1,3 +1,4 @@
+## For Gussian Mixture Model
 source("logf.R")
 source("utilis.R")
 source("initial.R")
@@ -105,9 +106,6 @@ for (i in 1:K) {
       mm = mmu[,1:3]
       ss = s[,,1:3]
       
-      A = MixSim::simdataset(n = size, Pi = ppi, Mu = t(mm), S = ss)
-      xi = A$X
-      
       f <- exp(logf.nfa(xi,mm,ss,prob[1:3]) + rep(log(prob[1:3]), each = nrow(xi)))
       lf.j <- log(rowSums(f))
     }
@@ -116,9 +114,6 @@ for (i in 1:K) {
       ppi = prob[4:5]/sum(prob[4:5])
       mm = mmu[,4:5]
       ss = s[,,4:5]
-      
-      A = MixSim::simdataset(n = size, Pi = ppi, Mu = t(mm), S = ss)
-      xi = A$X
       
       f <- exp(logf.nfa(xi,mm,ss,prob[4:5]) + rep(log(prob[4:5]), each = nrow(xi)))
       lf.j <- log(rowSums(f))
