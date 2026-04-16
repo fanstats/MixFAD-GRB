@@ -1,23 +1,18 @@
-Multi-layered model-based characterisation of the local-Universe galaxy
-data from the GAMA survey
+Cluster Analysis and Variability Characterization of BATSE Catalog Gamma
+Ray Bursts with Gaussian Mixture of Factor Analyzers
 ================
 
-This project uses a $t$-mixture of factor analyzers and a
-model-estimated overlap-based syncytial clustering approach to cluster
-and characterize galaxy data from the Galaxy And Mass Assembly (GAMA)
-survey. Each galaxy is represented by five intrinsic variables—stellar
-mass, specific star formation rate, $u−r$ color, half-light radius, and
-S'ersic index—and one environmental variable, the optimal density, which
-captures the influence of the local environment.
+This project applies the Gaussian mixture of factor analyzers to cluster
+and characterize the gamma-ray bursts (GRBs) from the Burst and
+Transient Source Experiment (BATSE) 4Br Catalog.
 
-The following figures present the estimated clusters from the
-model-based clustering (MBC) analysis. The 3D star-coordinate plot
-illustrates the separation of the two major galaxy populations, the red
-and blue sequences, and the distribution plots reveal distinct patterns
-in the variables across the identified galaxy clusters.
+The following star coordinates plot displays the five estimated simple
+GRB clusters, and the densities and scatter plots show the properties of
+the GRB clusters in terms of three composite features, duration
+($T_{90}$), total fluence ($F_1 + F_2 + F_3 +F_4$) and spectral hardness
+($F_3/(F_1 +F_2$)).
 
 <p float="left">
-<img src="figures/gama-starcoords3d-1.png" width="400" height = "200" />
-<img src="figures/gama-starcoords3d-2.png" width="400" height = "200" />
-<img src="figures/gama-envopt-mtfad-q-initial-dist.png" width="400" height = "400"/>
+<img src="figures/grb-5g.png" width="400" />
+<img src="figures/grb-5g-class-feature-dist.png" width="400" />
 </p>
